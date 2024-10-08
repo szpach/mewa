@@ -1,4 +1,4 @@
-# Mewa
+# MEWA
 
 ### Minimal Effort Workflow Automation
 
