@@ -17,6 +17,9 @@ def get_config(filename):
 
 
 def create_config(file_name):
+    server_stackscript_id = '1470185'
+    agent_stackscript_id = '1469008'
+
     print('# Creating config file')
     config = dict()
 
@@ -28,8 +31,8 @@ def create_config(file_name):
     }
 
     config['stackscripts'] = {
-        'server': input(' - enter server StackScripts ID: '),
-        'agent': input(' - enter agent StackScripts ID: ')
+        'server': server_stackscript_id,
+        'agent': agent_stackscript_id
     }
 
     default_prefix = 'htp_cluster_'
