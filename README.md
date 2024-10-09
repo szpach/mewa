@@ -7,7 +7,7 @@ This program automates the setup of a Hashtopolis cluster on Linode. It simplifi
 ## Usage
 
 ```py
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ```python
